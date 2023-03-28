@@ -124,7 +124,7 @@ $cidadeController = new CidadeController();
                         <label class="col-2 col-form-label">Latitude:</label>
                         <div class="col-8">
                             <input type="text" class="form-control" name="nr_latitude" id="nr_latitude"
-                                   placeholder="Para maior precisão do Google Maps, por favor a latitude (opicional). Exemplo: -15.77952200"
+                                   placeholder="Para maior precisão do Google Maps, informe a latitude e longitude. Exemplo: -15.77952200"
                                    value="">
                         </div>
                     </div>
@@ -132,7 +132,7 @@ $cidadeController = new CidadeController();
                         <label class="col-2 col-form-label">Longitude:</label>
                         <div class="col-8">
                             <input type="text" class="form-control" name="nr_longitude" id="nr_longitude"
-                                   placeholder="Para maior precisão do Google Maps, por favor a longitude (opicional). Exemplo: -47.92965700"
+                                   placeholder="Para maior precisão do Google Maps, informe a latitude e longitude. Exemplo: -47.92965700"
                                    value="">
                         </div>
                     </div>
