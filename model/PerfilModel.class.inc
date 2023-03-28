@@ -91,7 +91,7 @@ class PerfilModel extends Conexao
     {
         try {
 
-            $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/" . 'opontosite/sistema/view/app/';
+            $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/" . 'sistema/view/app/';
 
             $sql = "select m.*,
                    concat( concat('{$actual_link}', m.url_menu ), '/') as url_menu

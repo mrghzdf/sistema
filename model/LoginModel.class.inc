@@ -52,7 +52,7 @@ class LoginModel extends Conexao
 
     public function getMenusByPerfil($id_perfil)
     {
-        $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/".'opontosite/sistema/view/app/';
+        $actual_link = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]/".'sistema/view/app/';
 
         $sql = "SELECT
                    concat( concat('{$actual_link}', m.url_menu ), '/') as url_menu
