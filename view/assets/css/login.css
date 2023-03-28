@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+/*** TELA PRINCIPAL #dbaa1f69 ***/
+#E8C86C
+html, body {
+    /*background-color: #f0f0f0 !important;*/
+    background: rgb(181,135,102);
+    background: linear-gradient(180deg, #011a2a 0%, rgba(255,222,0,0.036852240896358524) 69%, rgba(255,255,255,1) 100%);
+    background-repeat: repeat-x;
+    background-size: cover;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.copy {
+    color: #333;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-laranja {
+    color: #fff;
+    background-color: #ffb700;
+    border-color: #ffb700;
+}
+
+a:hover {
+    cursor:pointer;
+}
+
+.h2-titulo {
+    border-bottom: 1px solid #006E72;
+    color: #006E72;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.h2-subtitulo {
+    color: #AAC7C8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.h2-subtitulo-img-cadeado {
+    background: url("../img/icones/cadeado.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    color: #a9a5a5;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 30px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.logout {
+    float: right;
+    margin-right: 25px;
+    margin-top: 32px;
+}
+
+.recuperar-senha-profissional {
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 25px;
+    text-align: center;
+    color: #d00000;
+}
+
+.esqueceu-senha {
+    line-height: 35px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+.contribuicao-login {
+    border: 1px solid #000000;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 55%;
+    text-align: center;
+    margin: 20px auto;
+    padding: 0.2%;
+    color: red;
+    text-align: center;
+}
+
+.contribuicao-login a {
+    color: red !important;
+}
+
+
+.caixa-texto {
+    padding-bottom: 5%;
+    background-color: #ffffff;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.caixa-texto-padding {
+!important;
+    padding: 5%;
+    background-color: #ffffff;
+    -webkit-border-bottom-right-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.container-fluid {
+    padding: 15px;
+}
+
+.btn-danger {
+    text-transform: uppercase;
+}
+
+.btn-success {
+    text-transform: uppercase;
+}
+
+.btn-login-cadastro {
+    background-color: #A09D6E;
+    color: white;
+    font-weight: bold;
+}
+
+.button-user {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 48px;
+    margin-left: 2%;
+    margin-bottom: 1%;
+    height: 38px;
+}
+
+.button-logout {
+    position: absolute;
+    bottom: 0;
+    right: 2%;
+    width: 110px;
+    margin-bottom: 1%;
+    height: 30px;
+}
+
+.masthead img {
+    width: 100%;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.cadastro-contribuicao{
+    padding-top: 20px;
+}
+
+.cad_titulo_informacao {
+    background-repeat: repeat-x;
+    font-weight: bold;
+    color: white;
+    background-color: #84C225;
+    background-image: url(../../../public/img/titulo_bg.png);
+    text-align: center;
+    border-radius: 5px 5px 0px 0px;
+    padding: 3px 0 3px 0;
+    width: 100%;
+    text-shadow: 0px 1px 1px #333;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+@media screen  and (max-width: 500px) and (min-width: 100px) {
+    .button-user {
+        margin-left: 2%;
+        margin-bottom: 1%;
+    }
+
+    .button-user img {
+        max-width: 35px;
+        max-height: 25px;
+        position: absolute;
+        bottom: 0;
+    }
+
+    .button-logout {
+        right: 2%;
+        margin-bottom: 1%;
+    }
+
+    .button-logout img {
+        max-width: 93px;
+        max-height: 25px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.cad_titulo_sub_pesquisar {
+    border-radius: 5px 5px 0px 0px;
+    background-repeat: repeat-x;
+    padding: 3px 3px 3px 3px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    width: 250px;
+    /*public/img/titulo_bg.png*/
+    /*	height: 30px; */
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-radius: 5px 5px 0px 0px;
+    background-color: #006699;
+    text-align: left;
+    text-shadow: 0px 1px 1px black;
+}
+
+.btn .btn-success{
+    background-color: #396941;
+}
+
+
+.div-legenda-fieldset {
+    border-radius: 5px 5px 0px 0px;
+    background-repeat: repeat-x;
+    padding: 3px 3px 3px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: white;
+    width: 250px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    -webkit-radius: 5px 5px 0px 0px;
+    text-align: left;
+    text-shadow: 0px 1px 1px black;
+}
+
+/*.btn-primary {*/
+    /*background: #0099cc;*/
+    /*color: #ffffff;*/
+/*}*/
+
+/* Alterar a cor de fundo default do btn-success */
+.btn-success{
+    background-color: #396941 !important;
+}

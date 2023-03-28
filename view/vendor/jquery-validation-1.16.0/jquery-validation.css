@@ -1,0 +1,4 @@
+/*label { display: block; margin-top: 10px; }*/
+label.error { display: block; float: left; color: red; margin: 0 .5em 0 0; vertical-align: top; font-size: 12px }
+p { clear: both; }
+em { font-weight: bold; padding-right: 1em; vertical-align: top; }
