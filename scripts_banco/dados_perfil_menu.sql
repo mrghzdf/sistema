@@ -1,0 +1,16 @@
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (1, 1);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (1, 15);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (1, 17);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (1, 18);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (1, 19);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (1, 37);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (1, 38);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (2, 1);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (2, 15);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (2, 18);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (2, 37);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (2, 38);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (3, 1);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (3, 15);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (3, 37);
+INSERT INTO tbl_perfil_menu (id_perfil, id_menu) VALUES (3, 38);

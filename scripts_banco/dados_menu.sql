@@ -1,0 +1,7 @@
+INSERT INTO tbl_menu (id_menu, id_menu_pai, url_menu, dsc_menu, is_pag_inicial, nm_menu, nro_ordem, is_submenu, st_menu) VALUES (1, 0, 'home', 'Página inicial, não poderá ser inativada.', true, 'Dashboard', 1, false, true);
+INSERT INTO tbl_menu (id_menu, id_menu_pai, url_menu, dsc_menu, is_pag_inicial, nm_menu, nro_ordem, is_submenu, st_menu) VALUES (15, 11, 'sistema/usuario', '', false, 'Usuários', 2, false, true);
+INSERT INTO tbl_menu (id_menu, id_menu_pai, url_menu, dsc_menu, is_pag_inicial, nm_menu, nro_ordem, is_submenu, st_menu) VALUES (17, 11, 'sistema/menu', 'Cadastro e edição de menus do administrativo.', false, 'Menus', 2, false, true);
+INSERT INTO tbl_menu (id_menu, id_menu_pai, url_menu, dsc_menu, is_pag_inicial, nm_menu, nro_ordem, is_submenu, st_menu) VALUES (18, 11, 'sistema/perfil', '', false, 'Perfis', 3, false, true);
+INSERT INTO tbl_menu (id_menu, id_menu_pai, url_menu, dsc_menu, is_pag_inicial, nm_menu, nro_ordem, is_submenu, st_menu) VALUES (19, 11, 'sistema/perfilmenu', 'Vincular menu ao perfil', false, 'Vincular (Menu x Perfil)', 5, false, true);
+INSERT INTO tbl_menu (id_menu, id_menu_pai, url_menu, dsc_menu, is_pag_inicial, nm_menu, nro_ordem, is_submenu, st_menu) VALUES (37, 1, 'entidade', '', false, 'Entidade Mantenedora', 2, false, true);
+INSERT INTO tbl_menu (id_menu, id_menu_pai, url_menu, dsc_menu, is_pag_inicial, nm_menu, nro_ordem, is_submenu, st_menu) VALUES (38, 1, 'cisterna', 'cisterna', false, 'Cisterna', 3, false, true);
